@@ -1,0 +1,99 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lifestyle img {
+    width: 1100px;
+    height: 700px;
+}
+
+.author {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.author-name, .author a{
+    color: black;
+    font-weight: bold;
+}
+
+.author a {
+    text-decoration: underline;
+}
+
+.blog-post-meta {
+    font-size: 15px;
+}
+
+.blog-post p {
+    font-size: 18px;
+}
+
+.publish-time {
+    font-size: 13px;
+    color: rgb(33, 33, 33);
+
+}
+
+.link-secondary, .link-secondary:hover {
+    font-size: 14px;
+    color: rgb(33, 33, 33);
+}
+
+#source {
+    color: rgb(74, 74, 74);
+    text-decoration: underline;
+}
+
+.blog-footer a {
+    color: rgb(74, 74, 74);
+}
+
+
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 360px;
+    max-width: 800px;
+    margin: 3em auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+.break {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}

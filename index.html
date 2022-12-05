@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Life Expectancy</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/blog/">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet"> 
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+<div class="container">
+  <header class="blog-header lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="link-secondary" href="#" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+        </a>
+      </div>
+      <div class="col-4 text-center">
+        <img src="./image/NewYorkTimes.svg" alt="logo">
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        
+        <a class="btn btn-sm btn-outline-secondary" href="#">SUBSCRIBE FOR $1/WEEK</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-between">
+      <a class="p-2 link-secondary" href="#">World</a>
+      <a class="p-2 link-secondary" href="#">U.S.</a>
+      <a class="p-2 link-secondary" href="#">Technology</a>
+      <a class="p-2 link-secondary" href="#">Design</a>
+      <a class="p-2 link-secondary" href="#">Culture</a>
+      <a class="p-2 link-secondary" href="#">Business</a>
+      <a class="p-2 link-secondary" href="#">Politics</a>
+      <a class="p-2 link-secondary" href="#">Opinion</a>
+      <a class="p-2 link-secondary" href="#">Science</a>
+      <a class="p-2 link-secondary" href="#">Health</a>
+      <a class="p-2 link-secondary" href="#">Style</a>
+      <a class="p-2 link-secondary" href="#">Travel</a>
+    </nav>
+  </div>
+</div>
+
+<main class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-7">
+      <h1 class="display-6">Life Expectancy Prediction of the World Population</h1>
+    </div>
+  </div>
+
+  <div class="lifestyle">
+    <img src="./image/header-img.jpg" alt="lifestyle">
+  </div>
+    
+
+
+  <div class="row g-5 justify-content-center">
+    <div class="col-md-8">
+
+      <article class="blog-post">
+
+        <p class="blog-post-meta author"><span class="author-name">By <a href="#">Yiwen Xu</a></span> <br> <span class="publish-time">Oct.30, 2022, 3:00 p.m. ET</span></p>
+
+        <p> <strong>Life expectancy</strong> is the key metric for assessing population health. Broader than the narrow metric of the infant and child mortality, which focus solely at mortality at a young age, life expectancy captures the mortality along the entire life course. It tells us the average age of death in a population.</p>
+
+        <p>Since 1900 the global average life expectancy has more than doubled and is now above 70 years. The inequality of life expectancy is still very large across and within countries.</p>
+
+        <p>The chart below shows the average life expectancy trend for developing countries and developed countries respectively from 2000 to 2015. Between one and a half decades, the average life expectancy for developed countries has increased nearly 4 years, and 5 years for developing countries. By 2015, there is still an average of 10-year gap between developed and developing countries.</p>
+        
+        <figure class="highcharts-figure">
+          <div id="chart1"></div>
+        </figure>
+
+        <p>Significant factors in life expectancy include gender, genetics, hygiene, diet and exercise, access to quality healthcare, lifestyle and culture, and crime rates. Studies indicate that longevity is based on two major factors: genetics and lifestyle choices. Given this, countries around the world have varying life expectancies.</p>
+        <p>According to the World Health Organization (WHO), the highest life expectancy in 2015 is 88 years. The chart shows the top 10 countries with the highest life expectancy. All of them have life expectany over 80 years.</p>
+
+        <figure class="highcharts-figure">
+          <div id="chart2"></div>
+        </figure>
+
+        <p>Normally, people believe that life expectancy is related to the average age at death within a population and is inversely related to the population death rates at that time; that is, the lower the death rates the greater the life expectancy.</p>
+        <p>The chart below shows adult mortality and infant deaths respectively for some countries. The area of the circle is directly related to life expectancy: the higher the life expectancy of the country, the larger the area of the circle. It can be inferred that countries with lower adult mortality and infant deaths usually have a higher life expectancy.</p>
+
+        <figure class="highcharts-figure">
+          <div id="chart3"></div>
+        </figure>
+
+        <div class="break">
+          <p>The table below shows the adult mortality, infant deaths, schooling, GDP, and life expextancy of each country from 2005 to 2015. Click on each label to sort the data, or use the search bar to filter. The number of entries shown can be adjusted using the dropdown.</p>
+        </div>
+        
+
+        <table id="tabular" class="display tabular" style="width:100%">
+          <thead>
+              <tr>
+                  <th>Country</th>
+                  <th>Year</th>
+                  <th>Adult Mortality</th>
+                  <th>Infant Deaths</th>
+                  <th>Schooling</th>
+                  <th>GDP</th>
+                  <th>Life Expectancy</th>
+              </tr>
+          </thead>
+          <tfoot>
+              <tr>
+                <th>Country</th>
+                <th>Year</th>
+                <th>Adult Mortality</th>
+                <th>Infant Deaths</th>
+                <th>Schooling</th>
+                <th>GDP</th>
+                <th>Life Expectancy</th>
+              </tr>
+          </tfoot>
+      </table>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="blog-footer">
+  <p>
+    <a href="#">Back to top</a> | Data from <a id="source" href="https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who?resource=download">Life Expectancy Data</a>
+  </p>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+<!-- highcharts -->
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+<!-- datatables -->
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>
